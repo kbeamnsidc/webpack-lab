@@ -3,7 +3,9 @@ import './style.css';
 function component() {
   const element = document.createElement('div');
 
-  element.innerHTML = 'Hello webpack';
+  const message = 'Hello webpack, this is TypeScript.';
+  console.log(message);
+  element.innerHTML = message;
 
   return element;
 }
